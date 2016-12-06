@@ -1,0 +1,9 @@
+<suite name="single testNG Demo" verbose="10">
+
+  <test name="common post" preserve-order="true">
+	<packages>
+		<package name="com.mkyong.testng.examples.exception" />
+	</packages>  
+</test>
+</suite>
+
