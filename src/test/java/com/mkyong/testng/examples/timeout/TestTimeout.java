@@ -9,7 +9,7 @@ public class TestTimeout {
 		Thread.sleep(4000);
 	}
 
-	//@Test(timeOut = 1000)
+	@Test(timeOut = 1000)
 	public void testThisShouldFail() {
 		while (true);
 	}
